@@ -6,11 +6,6 @@ The client performs syntax validation before sending commands to ensure correctn
 
 
 
-
-# Distributed File System (DFS) Project – COMP 8567
-
-This project is a client-server distributed file system simulation implemented in C using socket programming. It allows multiple clients to interact with four backend servers (S1 to S4), supporting common file operations such as uploading, downloading, removing, listing, and creating tar archives.
-
 ---
 
 ## 📘 Objective
