@@ -1,4 +1,10 @@
-Distributed File System DFS using Linux
+# Distributed File System DFS using Linux
+
+This Distributed File System (DFS) simulates client-server architecture using C and socket programming. The system includes one main server (S1) and three supporting servers (S2–S4), each responsible for specific file types (.c, .pdf, .txt, .zip). A multi-functional client interacts only with S1 to perform operations like uploading, downloading, removing, listing files, and downloading tarballs.
+
+The client performs syntax validation before sending commands to ensure correctness, while the servers handle file storage, routing, and management. An automated script tests all features end-to-end, including nested directory support.
+
+
 
 
 # Distributed File System (DFS) Project – COMP 8567
